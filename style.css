@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background-color: lightyellow;
   text-align: center;
   margin-top: 100px;
 }
@@ -29,4 +29,8 @@ body {
 
 #copyBtn:active {
   background-color: #004085;
+#counter {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
 }
