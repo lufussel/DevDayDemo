@@ -1,20 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: lightyellow;
-  text-align: center;
-  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5DC;
+  text-align: left;
+  margin: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 1000px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-content {
+  flex: 0 0 auto;
 }
 
 #copyBtn {
   margin-top: 10px;
   padding: 8px 16px;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   background-color: #007bff;
   color: white;
   border: none;

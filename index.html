@@ -4,15 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Fun Fact Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="container">
     <h1>Random Fun Fact Generator</h1>
     <button id="generateBtn">Give me a fact</button>
-    <p id="fact"></p>
-    <img id="factImage" src="" alt="Fact illustration" style="display: none;">
-    <button id="copyBtn" style="display: none;">Copy to Clipboard</button>
+    <div class="content-wrapper">
+      <div class="text-content">
+        <p id="fact"></p>
+        <button id="copyBtn" style="display: none;">Copy to Clipboard</button>
+      </div>
+      <div class="image-content">
+        <img id="factImage" src="" alt="Fact illustration" style="display: none;">
+      </div>
+    </div>
     <p id="counter">Button clicks: 0</p>
   </div>
   <script src="script.js"></script>
