@@ -1,2 +1,3 @@
-# DevDayDemo
-A repo to host a demonstration of GitHub Copilot capabilities at DevDay.
+# DevDay - GitHub Copilot Agents Demo
+
+This is a super simple web app used to demonstrate GitHub Copilot and Copilot Agents.
