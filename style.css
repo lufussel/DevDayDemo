@@ -29,6 +29,18 @@ body {
 
 #copyBtn:active {
   background-color: #004085;
+}
+
+#factImage {
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 #counter {
   font-size: 14px;
   color: #666;
